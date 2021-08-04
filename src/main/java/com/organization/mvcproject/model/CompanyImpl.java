@@ -1,12 +1,15 @@
-package com.organization.mvcproject.MGL_Task1.model;
+package com.organization.mvcproject.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Component;
 
+import com.organization.mvcproject.api.model.Company;
+import com.organization.mvcproject.api.model.Game;
+
 @Component
-public class Company {
+public class CompanyImpl implements Company{
 
 	private Long id;
 	private String name;

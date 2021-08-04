@@ -6,7 +6,7 @@
     </head>
    <body>
        <div>
-          <c:out value = "${name}"/>
+          <c:myTag/> value = "${name}"/>
        </div>
    </body>
 </html>
